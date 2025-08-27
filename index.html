@@ -18,13 +18,127 @@
       <li><a href="#seletores">Seletores</a></li>
       <li><a href="#pseudo">Pseudo-classes</a></li>
       <li><a href="#display">Display</a></li>
-      <li><a href="#margin-padding-border">Caixas</a></li>
+      <li><a href="#elementos_display">Elementos dos display</a></li>
+      <li><a href="#margin-padding-border">Serventia</a></li>
+      <li><a href="#shorthand">Shorthand</a></li>
       <li><a href="#box-sizing">Box-sizing</a></li>
     </ul>
-
 </nav>
 
+<main>
+<section id="cascata">
+    <h2>Regra da cascata</h2>
+    <p>A cascata é a como o CSS ler os códigos,(é lido de cima para baixo sempre),porém funciona de acordo com especificidade de seletores.</p>
+</section>
+
+<section id="especificidade">
+<h2>Especificidade no CSS</h2>
+<p>Especificidade é a hieraquia de pontos entre os seletores de mais especificidade para os de menos.</p>
+<ul>
+    <li><strong> seletor pela tag: </strong> tag é normal sendo nada especifica.</li>
+    <li><strong> seletor pela classe: </strong>classe direciona para eelementos presentes nela.</li>
+    <li><strong> seletor pelo id: </strong>id é o mais especifico pois pode ser ultilizado apenas um por elemento.</li>
+</ul>
+</section>
+
+<section id="seletores">
+<h2>Combinação de seletores</h2>
+<p>é a junção de dois seletores em uma linha só.</p>
+<h3>exemplos</h3>
+  <div class="exemplos">
+    <ul>
+        <li><strong> .primeira h1: </strong> pega qualquer h1 que esteja na classe .primeiro.</li>
+        <li><strong>.preimeiro > h1: </strong> o sinal de > significa que só quer pegar o h1 que é filho da clase primeira.</li>
+        <li><strong> .primeiro h1 + h1: </strong> quer selecionar apoenas o h1 que antes dels tenha h1 (só os de baixo recebe a estilização).</li>
+    </ul>
+  </div>
+</section>
+
+
+<section id="pseudo">
+    <h2>Pseudo-classes</h2>
+    <p>é uma classe que existe no CSS mas não no HTML,e que adiciona aos seletores para definir um estado especial de um elemento.</p>
+    <div class="filhos"> 
+         <ul>
+        <li><strong>first-child: </strong> pega a primeira classe.</li>
+        <li><strong>last-child: </strong> pega o ultima classe.</li>
+        <li><strong>nth-child(): </strong> pega a classe que ditar o número nos parenteses. </li>
+        <li><strong>nth-of-type(): </strong> mesma função da classe nth-child,porém nome diferente.</li>
+    </ul>
+    </div>
+</section>
+
+<section id="display">
+    <h2>Display inline e display block</h2>
+<div class="">
+    <ul>
+            <li><strong>display inline: </strong> oculpa apenas o espaço que tem mpara existir.</li>
+        <p>proriedades - widht,height,ppadding,margin e border.</p>
+
+    <li><strong>display block: </strong>oculpa a largura da tela inteira.</li>
+    <p>propriedades - padding,margin e border (funciona apenas na horizontal).</p>
+
+    </ul>
+
+</section>
+
+<section id="elementos_display">
+    <h2>Elementos padrãoes de cada display</h2>
+    <div class="elementos">
+        <ul>
+            <li><strong>display inline</strong> a,span,em,img e strong.</li>
+            <li><strong>display block</strong> div,p,h1 á h6,header,section,main,nav,ol e ul.</li>
+        </ul>
+    </div>
+</section>
+
+
+
+<section id="shorthand">
+<h2>Possíveis shorthand em cada propriedades.</h2>
+<p> <strong>shorthand</strong> aceita de 1 á 4 valores para configurar lados especificos de uma vez</p>
+    <div class="valores">
+        <ul>
+            <li><strong>border: </strong> aceita até 3 valores.</li>
+            <p>ex: border: 2px solid red;</p>
+            <li><strong> margin e padding: </strong>aceita até 4 valores.</li>
+            <p>margin: 10px 20px 30px 40 px</p>   
+        </ul>
+    </idiv>
+<div class="">
+<h3> sufixos</h3>
+<ul>
+    <li><strong>block: </strong> adiciona espaço em baixo e em cima.</li>
+    <li><strong>inline: </strong> adiciona espaço nos lados.</li>
+    <li><strong>top: </strong> adiciona espaço apenas em cima. </li>
+    <li><strong>bottom: </strong> adiciona espaço apenas em baixo. .</li>
+    <li><strong>left: </strong>  espaço no lado esquerdo</li>
+    <li><strong>right: </strong> adiciona espaço no lado direito.</li> 
+
+    </ul>
+    </div>
+</section>
+
+<section id="box-sizing">
+
+    <p>eles respeitam a altura e a largura definida,reduzindo o espaço do conteúdo.</p>
+
+</section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
 
 </body>
-
 </html>
