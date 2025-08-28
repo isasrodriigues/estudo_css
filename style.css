@@ -1,0 +1,112 @@
+ * {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: pink;
+}
+
+h1{
+    margin: 0;
+    font-size: 1.8rem;
+    font-family: 'lora',serif;
+    color: white;
+    text-align: left;
+}
+
+h2,h3{
+    font-family: 'lora',serif;
+    color: rgb(221, 23, 115);
+} 
+
+nav,h1{
+    padding: 10px ;
+    background: rgb(221, 23, 115);
+}
+
+header {
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+
+main {
+max-width: 1370px;
+margin: 10px auto;
+ padding: 10px;
+border-radius: 8px;
+
+}
+
+ nav ul {
+list-style: none;
+display: flex;
+gap: 70px;
+ margin: 10px 0 0;
+ padding: 0;
+}
+
+nav a {
+color: white;
+ text-decoration: none;
+font-weight: 500;
+align-items: center;
+
+}
+
+
+ nav a:hover{
+ text-decoration: underline;
+    }
+    
+nav{
+        margin-top: 10;
+        width: 100%;
+    }
+
+ p,li,strong {
+ font-family: Arial, Helvetica, sans-serif;
+
+ }
+    p{
+        line-height:1.6rem;
+        margin-bottom: 20px;
+    }
+
+strong{
+        color: rgb(221, 23, 115);
+    }
+
+
+
+ul{
+    padding-left: 20px;
+    
+}
+
+
+ul li::marker{
+  color: rgb(221, 23, 115);
+
+}
+
+
+li ul{
+    padding-left: 2px;
+}
+
+section{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+div{
+    padding: 5px;;
+}
+
+p div{
+    padding: 3px;
+}

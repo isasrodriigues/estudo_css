@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guia de Estudo de CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <title>Guia de Estudo do CSS</title>
 </head>
 <body>
     
 <header>
-    <h1>Guia de Estudo de CSS</h1>
-</header>
-
-<nav>
+    
+    <nav>
+ <h1>Guia de Estudo do CSS</h1>
  <ul>
       <li><a href="#cascata">Cascata</a></li>
       <li><a href="#especificidade">Especificidade</a></li>
@@ -24,6 +27,8 @@
       <li><a href="#box-sizing">Box-sizing</a></li>
     </ul>
 </nav>
+</header>
+
 
 <main>
 <section id="cascata">
@@ -43,12 +48,12 @@
 
 <section id="seletores">
 <h2>Combinação de seletores</h2>
-<p>é a junção de dois seletores em uma linha só.</p>
-<h3>exemplos</h3>
+<p>É a junção de dois seletores em uma linha só.</p>
+<h3>exemplos: </h3>
   <div class="exemplos">
     <ul>
-        <li><strong> .primeira h1: </strong> pega qualquer h1 que esteja na classe .primeiro.</li>
-        <li><strong>.preimeiro > h1: </strong> o sinal de > significa que só quer pegar o h1 que é filho da clase primeira.</li>
+        <li><strong> .primeiro h1: </strong> pega qualquer h1 que esteja na classe .primeiro.</li>
+        <li><strong>.preimeiro > h1: </strong> o sinal de > significa que só quer pegar o h1 que é filho da clase primeiro.</li>
         <li><strong> .primeiro h1 + h1: </strong> quer selecionar apoenas o h1 que antes dels tenha h1 (só os de baixo recebe a estilização).</li>
     </ul>
   </div>
@@ -57,7 +62,7 @@
 
 <section id="pseudo">
     <h2>Pseudo-classes</h2>
-    <p>é uma classe que existe no CSS mas não no HTML,e que adiciona aos seletores para definir um estado especial de um elemento.</p>
+    <p>É uma classe que existe no CSS mas não no HTML,e que adiciona aos seletores para definir um estado especial de um elemento.</p>
     <div class="filhos"> 
          <ul>
         <li><strong>first-child: </strong> pega a primeira classe.</li>
@@ -70,10 +75,10 @@
 
 <section id="display">
     <h2>Display inline e display block</h2>
-<div class="">
+<div class="display">
     <ul>
-            <li><strong>display inline: </strong> oculpa apenas o espaço que tem mpara existir.</li>
-        <p>proriedades - widht,height,ppadding,margin e border.</p>
+    <li><strong>display inline: </strong> oculpa apenas o espaço que tem mpara existir.</li>
+    <p>proriedades - widht,height,ppadding,margin e border.</p>
 
     <li><strong>display block: </strong>oculpa a largura da tela inteira.</li>
     <p>propriedades - padding,margin e border (funciona apenas na horizontal).</p>
@@ -96,23 +101,23 @@
 
 <section id="shorthand">
 <h2>Possíveis shorthand em cada propriedades.</h2>
-<p> <strong>shorthand</strong> aceita de 1 á 4 valores para configurar lados especificos de uma vez</p>
+<p> <strong>shorthand: </strong> aceita de 1 á 4 valores para configurar lados especificos de uma vez.</p>
     <div class="valores">
         <ul>
             <li><strong>border: </strong> aceita até 3 valores.</li>
             <p>ex: border: 2px solid red;</p>
             <li><strong> margin e padding: </strong>aceita até 4 valores.</li>
-            <p>margin: 10px 20px 30px 40 px</p>   
+            <p>margin: 10px 20px 30px 40 px;</p>   
         </ul>
     </idiv>
-<div class="">
-<h3> sufixos</h3>
+<div class="sufixos">
+<h3> sufixos: </h3>
 <ul>
     <li><strong>block: </strong> adiciona espaço em baixo e em cima.</li>
     <li><strong>inline: </strong> adiciona espaço nos lados.</li>
     <li><strong>top: </strong> adiciona espaço apenas em cima. </li>
     <li><strong>bottom: </strong> adiciona espaço apenas em baixo. .</li>
-    <li><strong>left: </strong>  espaço no lado esquerdo</li>
+    <li><strong>left: </strong>  espaço no lado esquerdo.</li>
     <li><strong>right: </strong> adiciona espaço no lado direito.</li> 
 
     </ul>
@@ -120,23 +125,9 @@
 </section>
 
 <section id="box-sizing">
-
-    <p>eles respeitam a altura e a largura definida,reduzindo o espaço do conteúdo.</p>
-
+    <h2>Box-sizing : border-box</h2>
+    <p>ela respeita a altura e a largura definida,reduzindo o espaço do conteúdo.</p>
 </section>
-
-    
-
-
-
-
-
-
-
-
-
-
-
 
 </main>
 
